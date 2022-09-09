@@ -1,0 +1,65 @@
+:root {
+    --red: #DC3545;
+  }
+  *{
+    box-sizing: border-box;
+  }
+
+.nav-link{
+    transition:all .3s;
+}
+
+
+.nav-link:hover{
+    color: #DC3545 !important;
+}
+
+.carousel-item{
+    max-height: calc(100vh - 85px);
+}
+.carousel-caption h5,
+.carousel-caption p
+{
+    color: #DC3545;
+    text-shadow: 3px 3px 3px black;
+    font-size: 2.5rem;
+}
+.fa-brands:hover{
+    opacity: .8;
+}
+#instructors .card{
+    transition: .6s;
+}
+#instructors .card:hover{
+    transform:scale(1.05 );
+}
+.student{
+    width: 400px;
+}
+section .nav-item .nav-link{
+    background-color: #DC3545;
+    margin-left: 1rem ;
+    color: #fff;
+    
+
+}
+section .nav-item .nav-link.active{
+    background-color: #DC3545;
+
+}
+
+
+section .nav-item .nav-link:hover{
+color: aliceblue !important;
+}
+footer {
+    height: 10rem !important;
+
+    
+}
+footer .socials i{
+    font-size: 3rem !important;
+    color: #fff !important;
+    margin-right: 1rem;
+    
+}
